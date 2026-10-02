@@ -1,0 +1,20 @@
+# Smithery configuration for SwiftVectorKit MCP Server
+# https://smithery.ai/docs
+
+startCommand:
+  type: "stdio"
+  configSchema:
+    type: "object"
+    properties:
+      workspace:
+        type: "string"
+        title: "Workspace Directory"
+        description: "Absolute or relative path to the Swift workspace to index and search"
+        default: "."
+  commandFunction: |
+    (config) => ({
+      command: "swiftvector-mcp",
+      args: config?.workspace ? [config.workspace] : []
+    })
+  exampleConfig:
+    workspace: "."
