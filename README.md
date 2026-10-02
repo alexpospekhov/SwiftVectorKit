@@ -3,6 +3,8 @@
   <h1>SwiftVectorKit</h1>
   <p><strong>v0.1.0 — On-Device Semantic Code Search, AST Vector Indexing & Agentic Intelligence for Swift on Apple Silicon</strong></p>
 
+  [![Swift Package Index](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Falexpospekhov%2FSwiftVectorKit%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/alexpospekhov/SwiftVectorKit)
+  [![Swift Package Index](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2Falexpospekhov%2FSwiftVectorKit%2Fbadge%3Ftype%3Dplatforms)](https://swiftpackageindex.com/alexpospekhov/SwiftVectorKit)
   [![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)]()
   [![Language](https://img.shields.io/badge/Swift-6.4%20Strict%20Concurrency-orange.svg)](https://swift.org)
   [![Platform](https://img.shields.io/badge/macOS-15.0%2B%20%7C%20Apple%20Silicon-black.svg)]()
